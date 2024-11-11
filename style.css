@@ -1,0 +1,40 @@
+#paragraph{color: white;}
+#h1{color: white;}
+body{
+    background-image: url('./assets/92783.jpg');
+}
+/* Make all text blue */
+body {
+    color: rgb(0, 140, 255);  /* Sets the text color for the entire body */
+    font-size: x-large;
+}
+
+/* Make all links orange */
+a {
+    color: orange; /* Sets color for links */
+    text-decoration: none; /* Optional: Remove underline from links */
+}
+
+/* Optional: Change link color on hover for better UX */
+a:hover {
+    color: darkorange; /* Changes the color when hovering over the link */
+}
+#image{float: right;}
+#PC{
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    top: 60px; /* Distance from the top of the container */
+    left: 1650px; /* Distance from the left of the container */
+    width: 200px; /* Set width or max-width */
+}
+
+.responsive-image {
+    width: 300px;  /* Set a specific width */
+    height: auto;  /* Maintain aspect ratio */
+}
+
+#home{
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    top: 60px; /* Distance from the top of the container */
+    left: 1650px; /* Distance from the left of the container */
+    width: 200px; /* Set width or max-width */
+}
